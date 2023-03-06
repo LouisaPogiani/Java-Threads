@@ -17,3 +17,7 @@ The simple/ basic structure to creating and starting threads
 Create a thread--> start the thread --> wait for other threads to finish 
 ## thread class
 Create a thread suclass that extends Thread class --> Create Run method (what to do onnce it runs) !You do not need to call this method! it runs once you start the thread.
+
+# Threads with lock
+Lock the threads while they're running so they don't interfere with each other instead of using start & stop. 
+In this file there are many different implementations about how we do it. (with global variables, shared object, or synchronized methods)
