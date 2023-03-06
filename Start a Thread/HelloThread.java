@@ -1,5 +1,5 @@
 
-public class HelloThread_Erwthma_1 {
+public class HelloThread {
 
 	 public static void main(String[] args) { 
 

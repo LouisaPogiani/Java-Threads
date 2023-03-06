@@ -1,11 +1,11 @@
 
-public class HelloThread_Erwthma_2 {
-
+public class HelloThread_TwoThreads {
+	
 	public static void main(String[] args) {
 
-        /* allocate array of thread objects */
+        /* allocate array of thread objecst */
         int numThreads = 20;
-        Thread[] threads = new Thread[numThreads];
+        Thread[] threads = new Thread[numThreads];  
         Thread[] threads2 = new Thread[numThreads];
 
 
@@ -31,10 +31,11 @@ public class HelloThread_Erwthma_2 {
 
         System.out.println("In main: threads all done");
     }
-}
+
+
 
 /* class containing code for each thread to execute */
-class MyThread extends Thread {
+  static class MyThread extends Thread {
 
     /* thread code */
     public void run() {
@@ -45,7 +46,7 @@ class MyThread extends Thread {
 
 
 /* class containing code for each thread to execute */
-class MySecondThread extends Thread {
+static  class MySecondThread extends Thread {
 
     /* instance variables */
     private int myID;
@@ -65,3 +66,5 @@ class MySecondThread extends Thread {
 
 }
 
+
+}

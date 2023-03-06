@@ -1,6 +1,6 @@
 
 
-public class HelloEvent_Erwthma_5 {
+public class HelloEvent{
 
 
 
