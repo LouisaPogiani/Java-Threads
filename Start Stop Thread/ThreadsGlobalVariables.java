@@ -1,5 +1,5 @@
 
-public class ThreadsGlobalVariables_Erwthma_1_3 {
+public class ThreadsGlobalVariables{
 
 	static int size = 10;
 	static int numThreads = 10;

@@ -1,5 +1,5 @@
 
-public class ThreadsSharedObject_Erwthma_1_3_version_2 {
+public class ThreadsSharedObject{
 
 	public static void main(String[] args)
 	{
