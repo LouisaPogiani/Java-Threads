@@ -43,7 +43,7 @@ public class ThreadParGroupMain{
 	{
 		private double [][] table;
 		private double [] tableX;
-		private double [] tableY;
+		private double [] tableY; 
 		private int myStart;
 		private int myStop;
 		private int size;
