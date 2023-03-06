@@ -1,5 +1,5 @@
 
-public class ThreadParGroupSqrt_Erwthma_2_3 {
+public class ThreadParGroupMain{
 
 	public static void main(String args[])
 	  {
